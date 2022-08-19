@@ -2,7 +2,7 @@ import './App.css';
 import io from 'socket.io-client';
 import {useState} from 'react';
 import Chat from '../src/Chat'
-const socket=io.connect("http://localhost:5050");
+const socket=io.connect("https://whats-up-msg.herokuapp.com/");
 
 function App() {
 
